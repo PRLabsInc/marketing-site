@@ -34,5 +34,5 @@ The Correspondence section posts to **Netlify Forms** (no email address appears 
 Netlify detects the `contact` form on deploy; then, in the Netlify dashboard, go to
 **Site configuration → Notifications → Emails and webhooks → Form submission notifications**
 and add the inbox that should receive messages. Spam is filtered by Netlify plus a honeypot field.
-After submitting, visitors land on `thanks.html`. The form only works on the deployed Netlify site,
+After submitting, visitors land on `/thanks` (served from `thanks.html`; Netlify strips the extension). The form only works on the deployed Netlify site,
 not in local preview.
